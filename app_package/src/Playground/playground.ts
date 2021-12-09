@@ -1,4 +1,5 @@
 import * as BABYLON from "@babylonjs/core";
+import "@babylonjs/loaders";
 
 class Playground {
     public static CreateScene(engine: BABYLON.Engine, canvas: HTMLCanvasElement): BABYLON.Scene {
